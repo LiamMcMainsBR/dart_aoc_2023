@@ -1,0 +1,36 @@
+linter:
+  rules:
+    - require_trailing_commas
+    - always_declare_return_types
+    - prefer_single_quotes
+    - unnecessary_statements
+    - always_put_required_named_parameters_first
+    - avoid_escaping_inner_quotes
+    - avoid_multiple_declarations_per_line
+    - avoid_positional_boolean_parameters
+    - avoid_redundant_argument_values
+    - avoid_void_async
+    - cascade_invocations
+    - parameter_assignments
+    - prefer_final_locals
+    - prefer_final_in_for_each
+    - prefer_if_elements_to_conditional_expressions
+    - prefer_int_literals
+    - prefer_null_aware_method_calls
+    - prefer_const_constructors
+    - prefer_const_declarations
+    - sort_child_properties_last
+    - sort_constructors_first
+    - sort_unnamed_constructors_first
+    - unnecessary_await_in_return
+    - unnecessary_lambdas
+    - unnecessary_parenthesis
+    - use_colored_box
+    - use_decorated_box
+    - use_is_even_rather_than_modulo
+
+analyzer:
+  language:
+    strict-casts: true
+    strict-inference: true
+    strict-raw-types: true
