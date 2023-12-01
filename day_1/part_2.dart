@@ -1,9 +1,9 @@
 import 'dart:io';
 
 void main() {
-  final input = File(
-    '/Users/liam.mcmains/Documents/Github/dart_aoc_2023/day_1/input.txt',
-  ).readAsStringSync();
+  final currentDirectory = Directory.current;
+  final input =
+      File('${currentDirectory.path}/day_1/input.txt').readAsStringSync();
 
   const LINE_DELIMITER = '\n';
 

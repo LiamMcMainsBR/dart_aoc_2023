@@ -1,8 +1,10 @@
 import 'dart:io';
 
 void main() {
-  final input = File('/Users/liam.mcmains/Documents/Github/dart_aoc_2023/day_20/input.txt')
+  final currentDirectory = Directory.current;
+  final input = File('${currentDirectory.path}/day_20/input.txt')
       .readAsStringSync();
 
-  
+  print(input);
+
 }
